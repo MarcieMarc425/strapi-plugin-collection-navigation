@@ -6,13 +6,6 @@ module.exports = {
       type: "json",
     },
   ],
-  // Files to bump version
-  bumpFiles: [
-    {
-      filename: "package.json",
-      type: "json",
-    },
-  ],
   types: [
     {
       type: "feat",
