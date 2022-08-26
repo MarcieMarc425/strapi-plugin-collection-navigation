@@ -11,6 +11,7 @@ export const InjectedButtonGroup = () => {
   const { initialData } = useCMEditViewDataManager();
 
   const injectButtons = (isSticky = false) => {
+    // Get button injection zone
     const injectZone = isSticky
       ? document.querySelector('[data-strapi-header-sticky]').children[0].children[1]
       : document.querySelector('[data-strapi-header]').children[1].children[1];
@@ -44,6 +45,18 @@ export const InjectedButtonGroup = () => {
         font-weight: 600;
       `;
 
+      // Create back to collection button
+      let backToCollectionButton = document.createElement('button');
+      backToCollectionButton.style = ButtonStyle;
+      backToCollectionButton.innerHTML = formatMessage({
+        id: getTrad('plugin.cta.back'),
+      });
+      const newBackPath = window.location.pathname.split('/');
+      newBackPath.pop();
+      backToCollectionButton.onclick = () => {
+        window.location.href = newBackPath.join('/');
+      };
+
       // Create previous button
       let previousButton = document.createElement('button');
       previousButton.style = ButtonStyle;
@@ -65,6 +78,7 @@ export const InjectedButtonGroup = () => {
       });
 
       // Append buttons to div
+      div.appendChild(backToCollectionButton);
       div.appendChild(previousButton);
       div.appendChild(nextButton);
 
@@ -74,7 +88,7 @@ export const InjectedButtonGroup = () => {
   };
 
   useEffect(() => {
-    // Observe dom changes
+    // Observe dom changes for sticky header
     const target = document.getElementById('main-content');
     const config = { attributes: true, childList: true, subtree: true };
 
@@ -93,7 +107,7 @@ export const InjectedButtonGroup = () => {
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
 
-    // If injectZone exists, remove it and re-inject
+    // If injectZone exists, remove it and re-inject to update button onClicks
     const injectZone = document.querySelector('#injected-prev-next-buttons');
     if (injectZone) {
       injectZone.remove();

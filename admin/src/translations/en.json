@@ -1,4 +1,5 @@
 {
   "plugin.cta.prev": "Previous",
-  "plugin.cta.next": "Next"
+  "plugin.cta.next": "Next",
+  "plugin.cta.back": "Back to collection"
 }
