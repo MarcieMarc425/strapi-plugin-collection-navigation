@@ -9,7 +9,7 @@
     "displayName": "Collection Navigation"
   },
   "scripts": {
-    "version": "standard-version"
+    "version": "npx standard-version"
   },
   "peerDependencies": {
     "@strapi/strapi": "^4.0.0"
@@ -43,8 +43,5 @@
   },
   "homepage": "https://github.com/MarcieMarc425/strapi-plugin-collection-navigation#readme",
   "license": "MIT",
-  "private": false,
-  "devDependencies": {
-    "standard-version": "^9.5.0"
-  }
+  "private": false
 }
