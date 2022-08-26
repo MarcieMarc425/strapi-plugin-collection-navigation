@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-collection-navigation",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A simple Strapi plugin to add previous and next button to navigate through a collection on the edit page without going back to the collection page.",
   "strapi": {
     "name": "collection-navigation",
