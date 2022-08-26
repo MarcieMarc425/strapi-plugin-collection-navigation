@@ -1,0 +1,44 @@
+{
+  "name": "strapi-plugin-collection-navigation",
+  "version": "1.0.0",
+  "description": "A simple Strapi plugin to add previous and next button to navigate through a collection on the edit page without going back to the collection page.",
+  "strapi": {
+    "name": "collection-navigation",
+    "description": "A simple Strapi plugin to add previous and next button to navigate through a collection on the edit page without going back to the collection page.",
+    "kind": "plugin",
+    "displayName": "Collection Navigation"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcieMarc425/strapi-plugin-collection-navigation.git"
+  },
+  "author": {
+    "name": "Marc Tse",
+    "url": "https://github.com/MarcieMarc425"
+  },
+  "maintainers": [
+    {
+      "name": "Marc Tse",
+      "url": "https://github.com/MarcieMarc425"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "collection",
+    "navigation"
+  ],
+  "bugs": {
+    "url": "https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/issues"
+  },
+  "homepage": "https://github.com/MarcieMarc425/strapi-plugin-collection-navigation#readme",
+  "license": "MIT",
+  "private": false
+}
