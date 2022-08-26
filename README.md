@@ -1,6 +1,6 @@
 # Strapi Plugin Collection Navigation
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-yellow.svg)](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/pulls) ![NPM](https://img.shields.io/npm/l/strapi-plugin-collection-navigation) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/MarcieMarc425/strapi-plugin-collection-navigation)](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-yellow.svg)](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/pulls) ![NPM](https://img.shields.io/npm/l/strapi-plugin-collection-navigation) [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MarcieMarc425/strapi-plugin-collection-navigation?display_name=tag&sort=semver)](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/releases)
 
 
 
