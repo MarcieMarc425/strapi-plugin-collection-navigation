@@ -8,7 +8,8 @@ A simple Strapi plugin to add navgation controls to the edit page of an item of 
 
 ## Caveat
 
-Please note this plugin depends a lot on the pre-existing DOM structure of the Strapi admin panel, as there is currently no injection zone available for the specific area I want to place the navigation control (as of Strapi v4.3.6). So please use with caution!
+- Please note this plugin depends a lot on the pre-existing DOM structure of the Strapi admin panel, as there is currently no injection zone available for the specific area I want to place the navigation control (as of Strapi v4.3.6). So please use with caution!
+- When traversing with navigation control, going to another item seems to save your current content of item, so make sure you don't have anything committed when clicking previous or next button! There doesn't seem to be any way around this. Also, because it will save your content, it will also pollute the "last edited" if you care about that.
 
 ## Feature
 
