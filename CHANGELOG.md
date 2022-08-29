@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/compare/v1.1.0...v1.1.1) (2022-08-29)
+
+
+### Documentation 📖
+
+* update README.md ([755415b](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/commit/755415bb8ffef9ad6d6f73081609fe2d89b445f9))
+* update README.md ([6e0a88c](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/commit/6e0a88c62e1c5d57e25c7e5ed94eb8ab35558436))
+
 ## [1.1.0](https://github.com/MarcieMarc425/strapi-plugin-collection-navigation/compare/v1.0.2...v1.1.0) (2022-08-26)
 
 
